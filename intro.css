@@ -1117,6 +1117,7 @@ body{
     transition: .5s;
     cursor: pointer;
     animation: scaleCat 1s 4.2s forwards;
+   
 }
 @keyframes scaleCat{
     0%{
@@ -1136,8 +1137,9 @@ body{
     filter: drop-shadow(0 0 25px rgb(255, 255, 0));
 }
 .cat img{
+    border-radius: 100px;
     width: 190px;
-    margin-top: -5rem;
+    /* margin-top: -5rem; */
 }
 .box-rim{
     position: absolute;

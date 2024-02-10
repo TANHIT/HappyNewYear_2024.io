@@ -1,4 +1,4 @@
-var fut = new Date("feb 10, 2024 00:00:00 GMT+0700").getTime()
+var fut = new Date("feb 9, 2024 00:00:00 GMT+0700").getTime()
 let x = setInterval(function stime(){
     var now = new Date().getTime()
     var D = fut - now
